@@ -1,7 +1,7 @@
 {
   "name": "pimatic-mobile-frontend",
   "description": "Provides a jQuery mobile webinterface for pimatic.",
-  "author": "Oliver Schneider <oliverschneider89+sweetpi@gmail.com> (http://sweetpi.de)",
+  "author": "Takanobu Fuse <capitalfuse@gmail.com> (http://ficus.myvnc.com)",
   "main": "mobile-frontend.coffee",
   "files": [
     "app",
@@ -15,10 +15,10 @@
     "README.md"
   ],
   "version": "0.9.3",
-  "homepage": "http://github.com/pimatic/pimatic",
+  "homepage": "http://github.com/capitalfuse/pimatic",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimatic/pimatic-mobile-frontend.git"
+    "url": "git://github.com/capitalfuse/pimatic-mobile-frontend.git"
   },
   "configSchema": "mobile-frontend-config-schema.coffee",
   "bundledDependencies": [
@@ -37,8 +37,8 @@
     "pimatic": "0.9.*"
   },
   "engines": {
-    "node": ">0.8.x",
-    "npm": ">1.1.x"
+    "node": ">=4.4.x",
+    "npm": ">=2.15.x"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
